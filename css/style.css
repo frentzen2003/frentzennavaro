@@ -90,61 +90,289 @@ body {
 
 /** Footer Start **/
 
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#connectWithMe, #note {
+  line-height: 2;
+}
+#connectWithMe > span, #note > span {
+  font-size: 1.3em;
+}
 
 /** Footer End **/
 
 
 /** Body Start **/
 
+.more{
+  text-align: right;
+}
 
+/* Items Format Start */
 
-
-#cert1, #cert2, #cert3{
+#edu1, #edu2, #org1, #org2, #org3, #org4, #org5, #org6, #org7, #org8, #org9, #org10, #org11, #org12, #org13, #cert1, #cert2, #cert3, #cert4, #cert5, #cert6, #cert7, #cert8, #cert9, #cert10, #cert11{
   height:400px;
   width:100%;
   margin-bottom:15px;
   position:relative;
-  border: 2px solid red;
+  /* border: 2px solid red;*/
   overflow:hidden;
 }
 
-#cert1:hover , #cert2:hover, #cert3:hover{
+#edu1:hover, #edu2:hover, #org1:hover, #org2:hover, #org3:hover,
+ #org4:hover, #org5:hover, #org6:hover, #org7:hover, #org8:hover,
+  #org9:hover, #org10:hover, #org11:hover, #org12:hover, #org13:hover,
+   #cert1:hover , #cert2:hover, #cert3:hover,
+   #cert4:hover , #cert5:hover, #cert6:hover,
+   #cert7:hover , #cert8:hover, #cert9:hover,
+   #cert10:hover , #cert11:hover{
   box-shadow: 0 1px 5px 1px white;
 }
 
-#cert1{
-  background: url('https://coursera-certificate-images.s3.amazonaws.com/BL9BCEVMD8UJ') no-repeat;
+/* Items Formar End */
+
+/* Education Content Section Start */
+#edu2{
+  background: url('../Resources/Education/edu-02.png') no-repeat;
   background-position:center;
   background-size: contain;
 }
 
-#cert2{
-  background: url('../Resources/Achievement/a.png') no-repeat;
+#edu1{
+  background: url('../Resources/Education/edu-01.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+/* Education Content Section End */
+
+/* Organization Content Section End */
+
+
+#org13{
+  background: url('../Resources/Organization/org-13.jpg') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+#org12{
+  background: url('../Resources/Organization/org-12.webp') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#org11{
+  background: url('../Resources/Organization/org-11.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+#org10{
+  background: url('../Resources/Organization/org-10.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#org9{
+  background: url('../Resources/Organization/org-09.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+#org8{
+  background: url('../Resources/Organization/org-08.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#org7{
+  background: url('../Resources/Organization/org-07.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+#org6{
+  background: url('../Resources/Organization/org-06.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#org5{
+  background: url('../Resources/Organization/org-05.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+#org4{
+  background: url('../Resources/Organization/org-04.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#org3{
+  background: url('../Resources/Organization/org-03.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#org2{
+  background: url('../Resources/Organization/org-02.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#org1{
+  background: url('../Resources/Organization/org-01.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+/* Organization Content Section End */
+
+/* Certificate Content Section Start */
+
+#cert11{
+  background: url('../Resources/Certificate/cert-11.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert10{
+  background: url('../Resources/Certificate/cert-10.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert9{
+  background: url('../Resources/Certificate/cert-09.jpg') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert8{
+  background: url('../Resources/Certificate/cert-08.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert7{
+  background: url('../Resources/Certificate/cert-07.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert6{
+  background: url('../Resources/Certificate/cert-06.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert5{
+  background: url('../Resources/Certificate/cert-05.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert4{
+  background: url('../Resources/Certificate/cert-04.jpg') no-repeat;
   background-position:center;
   background-size: contain;
 }
 
 #cert3{
-  background: url('https://frentzen2003.github.io/frentzen2003/frentzennavaro/blob/main/Resources/Achievement/A1-CND.png') no-repeat;
+  background: url('../Resources/Certificate/cert-03.png') no-repeat;
   background-position:center;
   background-size: contain;
 }
 
-#cert1 span, #cert2 span, #cert3 span{
-  position: absolute;
-  bottom:0;
-  right:0;
-  width:93%;
-  margin-right: 19px;;
-  text-align:center;
-  font-size:1.7em;
-  text-transform: uppercase;
-  background-color: rgb(80, 79, 79);
-  color:white;
-  opacity:.8;
-  
+#cert2{
+  background: url('../Resources/Certificate/cert-02.png') no-repeat;
+  background-position:center;
+  background-size: contain;
 }
+
+#cert1{
+  background: url('../Resources/Certificate/cert-01.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+/* Certificate Content Section End */
 
 /** Body End **/
 
+/* Content Adjustment */
 
+/* Large devices */
+@media (min-width: 1200px) {
+  
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* Extra small devices only */
+@media (max-width: 767px) {
+  /* Header Start */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p {
+    font-size: .6em;
+    margin-top: 12px;
+  }
+
+  #collapsable-nav a { /* Collapsed the navigation menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed the navigation menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  
+  /* Header End */
+
+  /* Footer Start */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* Footer End */
+
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+/* Super extra small devices */
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  
+}
