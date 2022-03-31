@@ -56,6 +56,10 @@ body {
 
 }
 
+.navbar-brand p span{
+  vertical-align: middle;
+}
+
 #nav-list{
   margin-top:10px;
 }
@@ -73,25 +77,74 @@ body {
   font-size:1.8em;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid grey;
+}
+
+.navbar-header button.navbar-toggle{
+  clear:both;
+  margin-top:-30px;
+}
+
 /** Header End **/
+
+/** Footer Start **/
+
+
+/** Footer End **/
 
 
 /** Body Start **/
 
 
+
+
+#cert1, #cert2, #cert3{
+  height:400px;
+  width:100%;
+  margin-bottom:15px;
+  position:relative;
+  border: 2px solid red;
+  overflow:hidden;
+}
+
+#cert1:hover , #cert2:hover, #cert3:hover{
+  box-shadow: 0 1px 5px 1px white;
+}
+
+#cert1{
+  background: url('https://coursera-certificate-images.s3.amazonaws.com/BL9BCEVMD8UJ') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert2{
+  background: url('../Resources/Achievement/a.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert3{
+  background: url('https://frentzen2003.github.io/frentzen2003/frentzennavaro/blob/main/Resources/Achievement/A1-CND.png') no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+#cert1 span, #cert2 span, #cert3 span{
+  position: absolute;
+  bottom:0;
+  right:0;
+  width:93%;
+  margin-right: 19px;;
+  text-align:center;
+  font-size:1.7em;
+  text-transform: uppercase;
+  background-color: rgb(80, 79, 79);
+  color:white;
+  opacity:.8;
+  
+}
+
 /** Body End **/
 
-img{
-  max-width: 100%;
-  max-height: 100%;
-  display: block; /* remove extra space below image */
-}
-.box{
-  width: 100%;
-}    
-.box.large{
-  height: 250px;
-}
-.box.small{
-  height: 100px;
-}
+
