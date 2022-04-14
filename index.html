@@ -1,353 +1,446 @@
-<!-- Created by: Frentzen Navaro Siauwtama -->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta Tag -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-        <!-- Title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Frentzen Navaro Siauwtama</title>
+    <title>responsive personal portfolio website design tutorail</title>
 
-        <!-- CSS Design -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-        <link rel="stylesheet" href="css/style.css">
+    <!-- Font Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- css File -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
     
+<!-- header section starts  -->
 
-        <!-- External Font Design -->
+<header>
 
-        
+    <div class="user">
+        <img src="Resources/frentzen_profile.jpg" alt="profileImage">
+        <h3 class="name">Frentzen</h3>
+        <p class="post">CyberSecurity</p>
+    </div>
 
-    </head>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            
+            <li><a href="#education">education</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#contact">contact</a></li>
+            
+        </ul>
+    </nav>
 
-    <body>
-        <header> <!-- Header Start -->
-            <nav id="header-nav" class="navbar navbar-default"> <!-- Header-nav Begins -->
-                <div class="container"> <!-- Container Start --> 
-                    <div class="navbar-header"> <!-- navbar-header Start --> 
-                        <div class="navbar-brand"> <!-- navbar-brand Start -->
-                            <a href="index.html"><h1>Frentzen Navaro Siauwtama</h1></a>
-                            <p>Official Website</p>
-                        </div> <!-- navbar-brand End -->
+</header>
 
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false"> <!-- Button Toggle Start -->
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button> <!-- Button Toggle End -->
+<!-- header section ends -->
 
-                    </div> <!-- navbar-header End --> 
+<div id="menu" class="fas fa-bars"></div>
 
-                    <div id="collapsable-nav" class="collapse navbar-collapse"> <!-- Collapsable Navigation Start -->
-                        
-                        <ul id="nav-list" class="nav navbar-nav navbar-right"> <!-- Expanding list Start -->
-                            
-                            <li> <a href="/frentzennavaro/Page/aboutMe.html"><span class="glyphicon glyphicon-search"></span><br class="hidden-xs">AboutMe</a> </li> <!-- About me page -->
-                            <li> <a href="/frentzennavaro/Page/education.html"> <span class="glyphicon glyphicon-record"></span><br class="hidden-xs">Education</a> </li> <!-- Education such as Jacschool and PSBAcademy -->
-                            <li> <a href="/frentzennavaro/Page/organization.html"> <span class="glyphicon glyphicon-briefcase"></span><br class="hidden-xs"> Organization</a> </li> <!-- Make it two class: as a exco and member -->
-                            <li> <a href="/frentzennavaro/Page/skill.html"><span class="glyphicon glyphicon-signal"></span><br class="hidden-xs">Skill</a> </li> <!-- Skill -->
-                            <li> <a href="/frentzennavaro/Page/certificate.html"><span class="glyphicon glyphicon-file"></span><br class="hidden-xs">Certificate</a> </li> <!-- Certificate -->
+<!-- home section starts  -->
 
-                        </ul> <!-- Expanding list End --> 
-                    </div> <!-- Collapsable Navigation End -->
-                </div> <!-- Container End -->
-            </nav> <!-- Header-nav End -->
-        </header> <!-- Header End -->
+<section class="home" id="home">
 
-        <!-- Main Content Start -->
+    <h3>HI!</h3>
+    <h1>I'M <span>Frentzen Navaro Siauwtama</span></h1>
+    <p>Cybersecurity and Computer Science enthusiast currently studying Bachelor of Science (Cybersecurity) in Edith Cowan University. Fascinated with Python Machine Learning, Java, SQL, C++, and C. Have a fundamental understanding of Cybersecurity such as topics from <a href="https://attack.mitre.org/" target="_blank">Attack mitre</a>. I do have experience and skills in the field of finance.
+    </p>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Frentzen Navaro Siauwtama </h3>
+        <h3> <span> age : </span> 18 </h3>
+        <h3> <span> qualification : </span> Diploma in Network Defense and Forensic Countermeasures </h3>
+        <h3> <span> language : </span> English, Indonesian </h3>
+        <a href="https://1drv.ms/b/s!AuFmX_kFLfU_gocc8HqyUwtLV0MzZw?e=fDP16r" target="_blank"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>4+</span>
+            <h3>Lead Successful Project</h3>
+        </div>
+
+        <div class="box">
+            <span>1+</span>
+            <h3>awards won</h3>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2020</span>
+        <h3>JAC School</h3>
+        <p>Enroll as a Secondary Student and studying IGCSE.</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2021</span>
+        <h3>PSB Academy</h3>
+        <p>Pursuing knowlaedge in Information Technology and Cybersecurity. I joined various student life clubs and meeting wonderful people in campus. But the most greatest opportunity is that I got to enhance my skill and ability beyond what I can imagine.</p>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-graduation-cap"></i>
+      <span>2022</span>
+      <h3>Edith Cowan University</h3>
+      <p>Taking Bachelor of Science (Cybersecurity).</p>
+  </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- Skill section starts  -->
+
+<section id="skill">
+
+  <h1 class="heading"> my <span>skill</span> </h1>
+  
+  <div class="container"> 
+    <div  class="row">
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="ninety"></circle>
+              </svg>
+              <div class="number">
+                <h2>90<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Python</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="seventy"></circle>
+              </svg>
+              <div class="number">
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Git</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="sixtyFive"></circle>
+              </svg>
+              <div class="number">
+                <h2>60<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Html</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="sixty"></circle>
+              </svg>
+              <div class="number">
+                <h2>56<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">css</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="fifthyFive"></circle>
+              </svg>
+              <div class="number">
+                <h2>55<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">SQL</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="fifthy"></circle>
+              </svg>
+              <div class="number">
+                <h2>50<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">JAVA</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="fourtyFive"></circle>
+              </svg>
+              <div class="number">
+                <h2>45<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">C++</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="thirtyFive"></circle>
+              </svg>
+              <div class="number">
+                <h2>35<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Bash</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="seventy"></circle>
+              </svg>
+              <div class="number">
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Leadership</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="seventy"></circle>
+              </svg>
+              <div class="number">
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Team Collaboration</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="seventy"></circle>
+              </svg>
+              <div class="number">
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Public Speaking</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="card">
+          <div class="box">
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70" id="sixtyFive"></circle>
+              </svg>
+              <div class="number">
+                <h2>65<span>%</span></h2>
+              </div>
+            </div>
+            <h2 class="text">Time Management</h2>
+          </div>
+        </div>
+      </div>
 
       
 
-        <!-- f-->
+    </div>
+  </div> 
+  
+  </section>
 
-<!--
-        <div class="container">
-          <div class="card">
-            <div class="box">
-              <div class="percent">
-                <svg>
-                  <circle cx="70" cy="70" r="70"></circle>
-                  <circle cx="70" cy="70" r="70"></circle>
-                </svg>
-                <div class="number">
-                  <h2>90<span>%</span></h2>
-                </div>
-              </div>
-              <h2 class="text">Html</h2>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <div class="percent">
-                <svg>
-                  <circle cx="70" cy="70" r="70"></circle>
-                  <circle cx="70" cy="70" r="70"></circle>
-                </svg>
-                <div class="number">
-                  <h2>85<span>%</span></h2>
-                </div>
-              </div>
-              <h2 class="text">CSS</h2>
-            </div>
-          </div>
-          <div class="card">
-            <div class="box">
-              <div class="percent">
-                <svg>
-                  <circle cx="70" cy="70" r="70"></circle>
-                  <circle cx="70" cy="70" r="70"></circle>
-                </svg>
-                <div class="number">
-                  <h2>60<span>%</span></h2>
-                </div>
-              </div>
-              <h2 class="text">Javascript</h2>
-            </div>
-          </div>
+<!-- Skill section ends -->
+
+<!-- Experience section starts  -->
+
+<section class="education" id="experience">
+
+  <h1 class="heading"> my <span>experience</span> </h1>
+  
+  <div class="box-container">
+  
+      <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2020</span>
+          <h3>Google Developer Student Club PSB Academy (GDSC PSBA)</h3>
+          <p>A community for PSB Academy students interested in Google developer technologies. Joined as a member in December 2020 before enrolling in PSB Academy. Choosen as Finance Manager for AY2021/2022.</p>
+      </div>
+  
+      <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2022</span>
+          <h3>Toastmasters Club Serikat</h3>
+          <p>A Toastmasters Club dedicated to Indonesian students studying in Singapore! Joined as a Founding member and taken a role as Sergeant at Arms.</p>
+      </div>
+  
+  
+  </div>
+  
+  </section>
+
+<!-- Experience section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">contact info</h3>
+
+        <div class="info">
+            
+            <h3> <i class="fas fa-globe"></i> <a href="https://www.linkedin.com/in/frentzen-siauwtama-38241717b/" target="_blank">LinkedIn</a> </h3>
+            <h3> <i class="fas fa-info"></i> <a href="https://github.com/frentzen2003" target="_blank">Github</a> </h3>
+            <h3> <i class="fas fa-flag-checkered"></i> <a href="https://www.cloudskillsboost.google/public_profiles/c9856ee3-d588-4ae2-b669-ec812f8d8f35" target="_blank">Qwiklabs (Google)</a> </h3>
+            <h3> <i class="fas fa-file"></i> <a href="CVhttps://1drv.ms/b/s!AuFmX_kFLfU_gocc8HqyUwtLV0MzZw?e=fDP16r" target="_blank">CV</a> </h3>
+
         </div>
 
--->
-<section>
-        <div class="container"> 
-          <div  class="row">
+    </div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>60<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Javascript</h2>
-                </div>
-              </div>
-            </div>
+    <form action="">
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="haja"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
+    </form>
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
+</div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
+</section>
 
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="card">
-                <div class="box">
-                  <div class="percent">
-                    <svg>
-                      <circle cx="70" cy="70" r="70"></circle>
-                      <circle cx="70" cy="70" r="70" id="hajaaa"></circle>
-                    </svg>
-                    <div class="number">
-                      <h2>90<span>%</span></h2>
-                    </div>
-                  </div>
-                  <h2 class="text">Html</h2>
-                </div>
-              </div>
-            </div>
+<!-- contact section ends -->
 
 
+<!-- scroll top button  -->
 
-          </div>
-        </div> 
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
 
-          
-      </section>
+<!-- Additional js-->
 
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
 
-          
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
 
-        <!-- Main Content End -->
-
-        <footer class="panel-footer"> <!-- Footer Start -->
-          <div class="container"> <!-- Container Start -->
-            <div class="row"> <!-- Row Start -->
-
-              <section id="connectWithMe" class = col-sm-6> <!-- connectWithMe Start -->
-                <span>Connect With Me!</span><br>
-                <a href="https://www.linkedin.com/in/frentzen-siauwtama-38241717b/">LinkedIn</a><br>
-                <a href="https://github.com/frentzen2003">Github</a>
-                <hr class="visible-xs">
-              </section> <!-- ConnectWithMe End -->
-
-              <section id="note" class = col-sm-6> <!-- note Start -->
-                <p>Hi, do checkout my <a href="https://1drv.ms/b/s!AuFmX_kFLfU_goUU5lbVFKAlI2aE7w?e=FbcDbP">CV</a> to know more about me!</p>
-              </section> <!-- note End -->
-
-              <div class="text-center">&copy; Copyright Frentzen Navaro Siauwtama</div>
-
-
-            </div> <!-- Row End -->
-          </div> <!-- Container End -->
-        </footer> <!-- Footer End -->
-
-
-     <!-- Script -->
-     <script src="js/jquery-2.1.4.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <!-- <script src="js/bootstrap.js"></script> -->
-     <script src="js/script.js"></script>
-     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
-
-    </body>
+</body>
 </html>
